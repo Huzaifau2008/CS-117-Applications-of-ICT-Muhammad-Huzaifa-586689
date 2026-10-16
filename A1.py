@@ -1,7 +1,7 @@
 # Fuse Check (Ohm's Law)
 
-voltage = float(input("Enter voltage = "))
-resistance = float(input("Enter resistance= "))
+voltage = float(input("Enter voltage (V): "))
+resistance = float(input("Enter resistance (ohm): "))
 
 if (resistance <= 0):
     print("Invalid resistance")
