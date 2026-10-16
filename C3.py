@@ -5,10 +5,10 @@ def decimal_to_binary(n):
         return "0"
     binary_str = ""
     while (n> 0):
-        remainder = n % 2
+        remainder = n%2
         binary_str = str(remainder) + binary_str
         n= n//2
     return binary_str
 
-print("decimal_to_binary(10) ->", decimal_to_binary(10))
-print("decimal_to_binary(25) ->", decimal_to_binary(25))
+print("decimal_to_binary(10) =", decimal_to_binary(10))
+print("decimal_to_binary(25) =", decimal_to_binary(25))

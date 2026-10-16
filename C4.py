@@ -7,4 +7,4 @@ def loaded_divider(vs, r1, r2, rl):
     
     return (round(unloaded_voltage, 2), round(loaded_voltage, 2))
 
-print("loaded_divider(12, 1000, 1000, 500) ->", loaded_divider(12, 1000, 1000, 500))
+print("loaded_divider(12, 1000, 1000, 500) =", loaded_divider(12, 1000, 1000, 500))
